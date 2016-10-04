@@ -1,0 +1,111 @@
+.form-header {
+    margin-bottom: 20px;
+    /*background-color: #cd8987;*/
+    background-image: linear-gradient(to bottom, #778da9, #415a77 100%);
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 20px
+}
+
+body {
+    /*background-image: linear-gradient(to bottom, #ffffff, #006699 100%);*/
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#login-name-link {
+    margin-left: 20px;
+}
+
+main {
+    font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+	margin: auto;
+    width: 500px;
+    background-color: #e0e1dd;
+    border-radius: 5px;
+
+}
+
+.new-recipe-form {
+    font-size: 18px;
+}
+
+.btn-primary {
+    width: 40px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+    background-color: none;
+    color: none;
+}
+
+.autoform-add-item {
+    width: 400px;
+    height: 30px;
+}
+
+.autoform-remove-item {
+    height: 30px;
+    width: 40px;
+}
+
+.autoform-remove-item-wrap {
+    width: 100px;
+}
+.form-control {
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+}
+
+.glyphicon {
+    width: 20px;
+    height: 3px;
+}
+
+button[type="submit"] {
+    margin-left: 175px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.list-group-item {
+    list-style: none;
+}
+
+.control-label {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.panel-heading {
+    margin-left: 20px;
+    font-size: 18px;
+}
