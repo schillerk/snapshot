@@ -1,6 +1,6 @@
-Recipes = new Mongo.Collection('recipes');
+Snapshots = new Mongo.Collection('snapshots');
 
-Recipes.allow({
+Snapshots.allow({
 	insert: function(userId, doc) {
 		return !!userId;
 	}
@@ -38,7 +38,7 @@ Metrics = new SimpleSchema({
 	}
 });
 
-RecipeSchema = new SimpleSchema({
+SnapshotSchema = new SimpleSchema({
 	CompanyName: {
 		type: String,
 		label: "Name"
@@ -75,4 +75,4 @@ RecipeSchema = new SimpleSchema({
 	}
 });
 
-Recipes.attachSchema(RecipeSchema);
+Snapshots.attachSchema(SnapshotSchema);

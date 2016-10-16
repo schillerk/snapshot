@@ -1,7 +1,3 @@
-Meteor.publish('recipes', function() {
+Meteor.publish('snapshots', function() {
 	return Recipes.find();
-});
-
-Meteor.publish('metrics', function() {
-	return Metrics.find();
 });

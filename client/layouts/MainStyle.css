@@ -96,6 +96,13 @@ button[type="submit"] {
     height: 50px;
 }
 
+button[type="submit"]:active{
+    color: #FFFFFF;
+    background-color: #666666;
+    width: 1500px;
+    margin-left: -500px;
+}
+
 .list-group-item {
     list-style: none;
 }

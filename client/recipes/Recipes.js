@@ -1,3 +1,3 @@
-Meteor.subscribe('recipes');
+Meteor.subscribe('snapshots');
 
 // SimpleSchema.debug = true
