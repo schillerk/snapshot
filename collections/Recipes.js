@@ -24,7 +24,7 @@ Metrics = new SimpleSchema({
 						position: "bottom",
 						limit: 5,
 						rules: [{
-							collection: Recipes,
+							collection: Snapshots,
 							field: "autocomplete",
 							template: Template.userPill
 						}, ]
